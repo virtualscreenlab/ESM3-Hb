@@ -61,6 +61,6 @@ Detailed comparisons and figures are in the data/ folder.
 
 ## License
 
-This project is for research and educational purposes. See LICENSE file for details.
+This project is for research and educational purposes. 
 
-For questions or collaborations, open an issue or contact the repository owner.
+For questions or collaborations, open an issue or contact the repository owner (shityakoff@hotmail.com).
