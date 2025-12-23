@@ -1,0 +1,42 @@
+# Change LIG to HEM
+set valence, off
+select HEM, organic and resn HEM  # Select the heme group
+hide cartoon
+zoom HEM
+remove hydrogens
+
+# Color the heme group
+util.cbac('HEM')
+
+# Select the active site residues around the heme group
+select act_site, byres HEM around 3
+zoom act_site
+show surface, act_site
+
+# Expand the active site selection
+select act_site, byres HEM around 3
+set stick_radius, 0.14, act_site
+set sphere_scale, 0.25, act_site
+set stick_color, white, act_site
+show sticks, act_site
+show spheres, act_site
+
+# Label the active site residues
+label act_site and name CB, resn+resi
+
+# Calculate the distance between the heme group and the active site residues
+distance pol_cont, HEM, act_site, mode=2
+
+# Hide labels for cleaner visualization
+hide label
+
+# Set background color and surface quality
+# bg_color white
+set surface_quality, 2
+set ray_shadows, 0  
+set surface_transparency, 0.5  
+
+# Render the image
+ray
+
+save my_heme_visualization.png
