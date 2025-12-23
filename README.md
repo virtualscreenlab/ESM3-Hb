@@ -14,7 +14,7 @@ Hemoglobin is the critical oxygen-transport protein in red blood cells. By desig
 - In Silico Evaluation Pipeline:
   - Molecular Dynamics (MD) simulations for structural stability assessment.
   - Density Functional Theory (DFT) calculations for electronic properties and heme interactions.
-  - Binding site analysis and molecular docking for ligand (O2, CO2) interactions.
+  - Binding site analysis and molecular docking for ligand interactions.
 - Data and Results: Generated sequences, predicted structures, simulation trajectories, and analysis outputs.
 
 ## Repository Structure
