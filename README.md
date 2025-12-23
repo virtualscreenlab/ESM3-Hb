@@ -32,7 +32,7 @@ Hemoglobin is the critical oxygen-transport protein in red blood cells. By desig
 - Libraries: See requirements.txt (if available) or install via:
   pip install torch numpy pandas matplotlib biopython rdkit pyscf openpyxl
 - Access to ESM3 model (via EvolutionaryScale API or open weights where available).
-- Simulation tools: GROMACS/Amber for MD, Gaussian/ORCA for DFT, AutoDock Vina for docking.
+- Simulation tools: Amber for MD, Gaussian/ORCA for DFT, AutoDock Vina for docking.
 
 ## Usage
 
